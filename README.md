@@ -10,10 +10,11 @@ The project also includes a Streamlit web interface with plant images for easy a
 
 * Manage plant stock
 * View plant details
+* Search plants
 * Add new plants
 * Update plant quantity
 * Delete plants
-* View supplier details
+* Manage suppliers
 * View customer details
 * Generate bills
 * Automatically update stock after a sale
@@ -33,14 +34,20 @@ The project also includes a Streamlit web interface with plant images for easy a
 ### Plant Management
 
 * View all plants
+* Search plants by name
 * Add new plants
 * Update plant quantity
 * Delete plants
-* View price and available stock
+* View plant price and available stock
 * View supplier information
+* Display plant images
 
 ### Supplier Management
 
+* View suppliers
+* Add new suppliers
+* Update supplier details
+* Delete suppliers
 * View supplier ID
 * View supplier name
 * View phone number
@@ -48,10 +55,13 @@ The project also includes a Streamlit web interface with plant images for easy a
 
 ### Customer Management
 
+* View customer details
 * View customer ID
 * View customer name
 * View phone number
 * View city
+* View customer purchase history
+* View total customer purchase amount
 
 ### Billing
 
@@ -61,9 +71,14 @@ The project also includes a Streamlit web interface with plant images for easy a
 * Calculate total amount
 * Save sales information
 * Automatically reduce plant stock
+* Display generated bill
 
-### Sales Report
+### Sales Reports
 
+* Total Sales Report
+* Available Stock Report
+* Low Stock Plants Report
+* Customer Purchase History Report
 * Sale ID
 * Customer name
 * Plant name
@@ -94,10 +109,15 @@ sales
 Green Bloom Project/
 │
 ├── images/
-│   ├── rose.jpg
-│   ├── jasmine.jpg
 │   ├── aloe_vera.jpg
-│   └── money_plant.jpg
+│   ├── hibiscus.jpg
+│   ├── jasmine.jpg
+│   ├── lotus.jpg
+│   ├── mari_gold.jpg
+│   ├── Money_plant.jpg
+│   ├── rose.jpg
+│   ├── sunflowe.jpg
+│   └── Tulip.jpg
 │
 ├── main.py
 ├── db_connection.py
@@ -153,14 +173,21 @@ green_bloom_db
 The following features were tested successfully:
 
 * ✅ View Plants
+* ✅ Search Plant
 * ✅ Add Plant
 * ✅ Update Quantity
 * ✅ Delete Plant
 * ✅ View Suppliers
+* ✅ Add Supplier
+* ✅ Update Supplier
+* ✅ Delete Supplier
 * ✅ View Customers
+* ✅ Customer Purchase History
 * ✅ Generate Bill
 * ✅ Automatic Stock Update
-* ✅ Sales Report
+* ✅ Total Sales Report
+* ✅ Available Stock Report
+* ✅ Low Stock Plants Report
 * ✅ Streamlit Web Interface
 * ✅ Plant Images
 
@@ -172,6 +199,6 @@ B.Tech - Electronics and Communication Engineering
 
 ## 📌 Conclusion
 
-The Green Bloom Plants Stock Management System provides a simple and efficient way to manage plant inventory, customers, suppliers, and sales.
+The Green Bloom Plants Stock Management System provides a simple and efficient way to manage plant inventory, customers, suppliers, billing, and sales.
 
 The project combines Python, MySQL, and Streamlit to provide database management along with a user-friendly web interface.
