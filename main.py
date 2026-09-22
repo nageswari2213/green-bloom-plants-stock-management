@@ -20,15 +20,12 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == "1":
-
             show_plants()
 
         elif choice == "2":
-
             show_suppliers()
 
         elif choice == "3":
-
             show_customers()
 
         elif choice == "4":
@@ -46,23 +43,18 @@ def main():
                 )
 
             except ValueError:
-
                 print("Please enter a valid quantity.")
 
         elif choice == "5":
-
             show_sales_report()
 
         elif choice == "6":
-
             print("Thank you for using Green Bloom!")
             break
 
         else:
-
             print("Invalid choice.")
 
 
 if __name__ == "__main__":
     main()
-
